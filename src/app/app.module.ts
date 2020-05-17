@@ -21,5 +21,6 @@ import { StringFormComponent } from './string-form/string-form.component';
   ],
   providers: [],
   bootstrap: [AppComponent],
+  entryComponents: [StringFormComponent, NumericFormComponent],
 })
 export class AppModule {}
