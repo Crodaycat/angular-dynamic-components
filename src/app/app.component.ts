@@ -77,4 +77,9 @@ export class AppComponent implements OnInit {
     });
   }
 
+  logValues() {
+    const values = this.forms.value;
+
+    console.log('Form values:', values);
+  }
 }
