@@ -1,0 +1,5 @@
+<mat-form-field appearance="outline">
+  <mat-label>{{ controlLabel }}</mat-label>
+  <input matInput [formControl]="control" [placeholder]="controlLabel" />
+  <mat-hint *ngIf="controlHit">{{ controlHit }}</mat-hint>
+</mat-form-field>
